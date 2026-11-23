@@ -5,7 +5,7 @@ English | [简体中文](./README.md)
 > **Board**: G4V_MINI
 > **MCU**: STM32G474VET6 (LQFP100 package)
 
-## Board Introduction
+## 1. Board Introduction
 
 ### MCU
 - STM32G474VET6, Cortex-M4, 170 MHz core clock
@@ -35,7 +35,7 @@ English | [简体中文](./README.md)
 - 5.18 cm × 3.60 cm
 - JLC 4-layer board, ENIG finish, lead-free SMT
 
-## 1. Board-Level Pin Map (HDK/G4V_MINI-PinMap.md)
+## 2. Board-Level Pin Map (HDK/G4V_MINI-PinMap.md)
 
 | Function | Pin | Notes |
 |------|------|------|
@@ -50,7 +50,7 @@ English | [简体中文](./README.md)
 | SPI_LCD | PB3/4/5 + PD3/6 + PB6 | SCL/DC/SDA + PWR/RST + CS |
 | QSPI_FLASH | PA3/PA2/PB1/PF9/PA7/PA6 | CLK/CS/D0/D1/D2/D3 |
 
-## 2. Top-Level Directory Structure
+## 3. Top-Level Directory Structure
 
 | Path | Description |
 |------|------|
@@ -74,7 +74,7 @@ English | [简体中文](./README.md)
 | `README.md` | This document (Simplified Chinese) |
 | `README_EN.md` | English version of this document |
 
-## 3. Examples Library (94 in total)
+## 4. Examples Library (94 in total)
 
 | Category | Example |
 |------|----------|
@@ -175,7 +175,7 @@ English | [简体中文](./README.md)
 
 > Category stats: ADC(2), COMP(2), CORDIC(2), Cortex(4), CRC(4), DAC(1), DMA(2), FLASH(4), FMAC(5), GPIO(3), HAL(1), HRTIM(4), I2C(6), IWDG(2), LPTIM(4), OPAMP(1), PWR(9), RCC(3), RNG(2), RTC(3), SPI(6), TIM(12), UART(10), USART(1), WWDG(1)
 
-## 4. Standalone Projects (8 directories)
+## 5. Standalone Projects (8 directories)
 
 | Project | Description | README |
 |------|------|:---:|
