@@ -47,6 +47,7 @@ lcd_hw* lcd_hw_desc[] = {
     &lcd_hw_0_96,
     &lcd_hw_1_14,
     &lcd_hw_1_47,
+		&lcd_hw_2_00,
 		&lcd_hw_2_40,	
 };
 
