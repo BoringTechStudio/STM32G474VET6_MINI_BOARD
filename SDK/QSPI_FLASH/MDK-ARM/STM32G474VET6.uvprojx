@@ -408,15 +408,10 @@
               <FileName>usart.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Core/Src/usart.c</FilePath>
-
             </File>
-
             <File>
-
               <FileName>quadspi.c</FileName>
-
               <FileType>1</FileType>
-
               <FilePath>../Core/Src/quadspi.c</FilePath>
             </File>
             <File>
@@ -508,15 +503,10 @@
               <FileName>stm32g4xx_hal_cortex.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c</FilePath>
-
             </File>
-
             <File>
-
               <FileName>stm32g4xx_hal_qspi.c</FileName>
-
               <FileType>1</FileType>
-
               <FilePath>../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_qspi.c</FilePath>
             </File>
           </Files>
@@ -532,9 +522,6 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>::CMSIS</GroupName>
-        </Group>
-        <Group>
           <GroupName>Components/Devices</GroupName>
           <Files>
             <File>
@@ -543,6 +530,9 @@
               <FilePath>../Components/Devices/bsp_qspi_w25q256.c</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>
     </Target>
